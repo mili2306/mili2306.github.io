@@ -11,27 +11,29 @@
     background-color: lightgrey;
     float: left;
     text-align: left;
-    color: chocolate;
+    color: darkred;
     font-family: sans-serif;
-    padding: 5px;
+    padding: 10px;
 }
 
 #tengah {
     width: 500px;
-    background-color: darkred;
+    background-color: lightgrey;
     float: left;
-    text-align: center;
-    color: floralwhite;
+    border-width: thin;
+    text-align: left;
+    color: darkred;
     font-family: sans-serif;
-    padding: 3px;
+    font-size: 16;
+    padding: 10px;
 }
 
 #kanan {
     width: auto;
     overflow: auto;
-    background-color: lightcoral;
+    background-color: darkred;
     text-align: right;
-    color: antiquewhite;
+    color: lightgrey;
     font-family: sans-serif;
     padding: 10px;
 }
@@ -41,5 +43,6 @@
     color: black;
     clear: both;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    font-family:sans-serif
 }
