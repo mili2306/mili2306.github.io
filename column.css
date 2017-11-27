@@ -20,7 +20,8 @@
     width: 500px;
     background-color: lightgrey;
     float: left;
-    border-width: thin;
+    border-width: thick;
+    border-color: aqua;
     text-align: left;
     color: darkred;
     font-family: sans-serif;

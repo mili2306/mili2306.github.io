@@ -2,6 +2,7 @@
 	<head>
 		<title>Kostankoe</title>
         <link rel="stylesheet" href="column.css">
+        <script src="roomchoice.js" type="text/javascript"></script>
 	</head>
     
     
@@ -25,6 +26,26 @@
         <p>Akses Cisitu ke ITB</p>
         <iframe width="420" height="345" src="https://www.youtube.com/embed/5m6mmuDv_R8">
         </iframe>
+        <p>Pilihlah kamar yang diinginkan:</p>
+        <select id="roomChoice">
+    <option value=""></option>
+    <option value="1">Kamar 1.350.000</option>
+    <option value="2">Kamar 1.450.000</option>
+    <option value="3">Kamar 1.850.000</option>
+    <option value="4">Kamar 1.950.000</option>
+</select>
+<input type="submit" value="Pilih" onclick="return Pilih()" />
+<script type="text/javascript">
+    function Validate() {
+        var roomChoice = document.getElementById("roomChoice");
+        if (roomChoice.value == "") {
+            //If the "Please Select" option is selected display error.
+            alert("Mohon pilih jenis kamar");
+            return false;
+        }
+        return true;
+    }
+</script>
     </div>
     <div id="footer">
         <h4>Copyright by Kostankoe- feels like home!</h4>
