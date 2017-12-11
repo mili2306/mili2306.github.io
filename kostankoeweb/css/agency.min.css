@@ -706,3 +706,11 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
     background-color: darkred
 }
+
+map {
+    right: auto;
+    left: auto;
+    border-right-width: 14px;
+    border-left-width: 0;
+    padding: 10rem;
+}
